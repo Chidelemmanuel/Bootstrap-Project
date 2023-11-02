@@ -9,3 +9,18 @@ h4 {
     letter-spacing: 2px;
 }
 
+@media (min-width: 320px) {
+
+    .subscribe {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .subscribe {
+        display: block;
+    }
+}
+
+
